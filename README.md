@@ -79,6 +79,8 @@ Nos devolverá : CS2024-1
 
 
 
+
+
 Reseteo de contador por categoria:
 
     - POST http://localhost:8080/turnos/resetContadorByCategoria?categoria=CS
