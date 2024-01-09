@@ -70,7 +70,7 @@ public class TurnoSevice implements TurnoOutPort {
             }
             turno.setContador(0);
             turno.setUltimaModificacion(LocalDateTime.now());
-            turno.setMesa("NO ASIGNADA");
+            turno.setMesa("MESA NO ASIGNADA");
             entityRepository.save(turno);
             return true;
         } catch (Exception e){
